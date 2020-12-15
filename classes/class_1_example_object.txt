@@ -1,0 +1,12 @@
+Lunch
+
+restaurant_name = "Taco Truck"
+item_list = ["beef", "chicken", "pork"]
+item_is_food = "true"
+item_price = 5.75
+number_of_items = 3
+
+change_name: = Taco Bar
+change_type: item = water item_is_food = false
+add_item: item_list = ["beef", "chicken", "pork", "fish"] item_count = 4
+calculate_coupon: item_price = 3
