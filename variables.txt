@@ -1,0 +1,11 @@
+food = "Pizza"
+is_delicious = "true"
+food = "Cake"
+num2 = 5
+num7 = 6
+quotient = num7/num2
+songs = ["hello", "goodbye", "miss you"]
+
+remove_first_element = songs.shift
+
+character_count = food.length
