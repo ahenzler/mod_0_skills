@@ -1,0 +1,12 @@
+To go item
+
+Attributes
+item_name = "box"
+item_count = 10
+item_count_low = "true"
+expiration_date = 12/21
+
+Methods
+new_supplier: item_name = "compostable box"
+order_came_in: item_count = 20 , item_count_low = "false"
+calculate_how_long_item_can_be_used: expiration_date - todays_date = 1
