@@ -1,0 +1,12 @@
+Supplies
+
+Attributes
+item_name (string)
+item_count (integer)
+item_count_low (boolean)
+expiration_date (datetime)
+
+Methods
+new_supplier (change item_name)
+order_came_in (increase item_item count by 10, modify item_count_low)
+calculate_how_long_item_can_be_used (how many years till expiration_date)
