@@ -1,0 +1,14 @@
+Menu
+
+Attributes
+restaurant_name (string)
+item_is_food (boolean)
+item_price (float)
+number_of_items (interger)
+item_list (array)
+
+Methods
+change_name (modifies restaurant_name)
+change_type (modifies item_is_food)
+add_item (modifies item list and number_of_items)
+calculate_coupon (modifies item_price)
