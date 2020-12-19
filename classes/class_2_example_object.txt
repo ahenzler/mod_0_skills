@@ -1,12 +1,14 @@
-To go item
+instance: ToGoBoxes
 
-Attributes
-item_name = "box"
-item_count = 10
-item_count_low = "true"
-expiration_date = 12/21
+Attributes:
+item_type = "Box"
+item_count = 21
+item_size = ["small", "medium", "large"]
+expiration_date = 11/20/31
 
-Methods
-new_supplier: item_name = "compostable box"
-order_came_in: item_count = 20 , item_count_low = "false"
-calculate_how_long_item_can_be_used: expiration_date - todays_date = 1
+Methods:
+change_type: item_type = "Cup"
+shipment_came_in: item_count + 10 = 31
+is_item_count_low: item_count < 20 = false
+add_size: item_size = ["small", "medium", "large", "extra large"]
+is_item_expired: 12/19/20 > expiration_date = false

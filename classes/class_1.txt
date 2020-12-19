@@ -1,14 +1,13 @@
-Menu
+class: RestaurantMenu
 
-Attributes
-restaurant_name (string)
-item_is_food (boolean)
+Attributes:
+menu_type (string)
 item_price (float)
-number_of_items (interger)
+vegetarian_option (boolean)
 item_list (array)
+item_count (integer)
 
-Methods
-change_name (modifies restaurant_name)
-change_type (modifies item_is_food)
-add_item (modifies item list and number_of_items)
-calculate_coupon (modifies item_price)
+Methods:
+becomes_dinner (modifies menu_type to dinner menu)
+calculate_military_discount_5_off (modifies item_price, take five dollars off)
+add_vegetarian_item (modifies item_list, item_count, and vegetarian_option, add element to end of item_list array)
